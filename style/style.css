@@ -1,0 +1,115 @@
+h2 {
+
+    text-align: center;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 3em;
+    color: #000000;
+    text-shadow: 3px 3px 4px #444444;
+    -webkit-text-shadow: 3px 3px 4px #444444;
+    -moz-text-shadow: 3px 3px 4px #444444;
+}
+
+body {
+    font-size: 18px;
+
+}
+
+#button {
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+/* Bouton Ajouter une ligne */
+.add-line {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.add-line:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+/* Bouton Reset */
+.reset-button {
+    background: #d93434;
+    background-image: -webkit-linear-gradient(top, #d93434, #b82b2b);
+    background-image: -moz-linear-gradient(top, #d93434, #b82b2b);
+    background-image: -ms-linear-gradient(top, #d93434, #b82b2b);
+    background-image: -o-linear-gradient(top, #d93434, #b82b2b);
+    background-image: linear-gradient(to bottom, #d93434, #b82b2b);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.reset-button:hover {
+    background: #fc3243;
+    background-image: -webkit-linear-gradient(top, #fc3243, #d93434);
+    background-image: -moz-linear-gradient(top, #fc3243, #d93434);
+    background-image: -ms-linear-gradient(top, #fc3243, #d93434);
+    background-image: -o-linear-gradient(top, #fc3243, #d93434);
+    background-image: linear-gradient(to bottom, #fc3243, #d93434);
+    text-decoration: none;
+}
+
+/* Bouton Télécharger données */
+.telecharger-donnees {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.telecharger-donnees:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+#borderNotice {
+    border: 5px solid #1C6EA4;
+    border-radius: 20px;
+    padding: 20px;
+}

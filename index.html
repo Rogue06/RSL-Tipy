@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Stockage de données</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        .reset-button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Tipy éclats</h2>
+
+    NOTICE :
+
+    <ol>
+        <li>Cliquez sur <strong><em>Ajouter ligne</em></strong></li>
+        <li>Ajoutez votre type d'éclat <em>(Ex : Antiques, Néant...)</em></li>
+        <li>Ajoutez le nombre d'éclats déjà ouverts</li>
+        <li>Entrez votre nombre d'épiques</li>
+    </ol>
+    <ol>PS : il est possible de modifier/supprimer le(s) valeurs via les boutons "Modifier" et "Supprimer"
+        le bouton Réinitialiser vous permet de tout remettre à zéro, il vous faudra confirmer
+        en écrivant "OUI" en majuscule pour valider.</ol>
+
+    <ol>
+        <table id="dataTable">
+            <tr>
+                <th>Éclat</th>
+                <th>Épiques</th>
+                <th>Action</th>
+            </tr>
+        </table>
+    </ol>
+
+    <div id="button">
+        <button class="add-line" onclick="ajouterLigne()">Ajouter Ligne</button>
+        <button class="reset-button" onclick="demanderConfirmation()">Réinitialiser</button>
+        <button class="telecharger-donnees" onclick="telechargerDonnees()">Télécharger Données</button>
+    </div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>
